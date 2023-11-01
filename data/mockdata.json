@@ -1,0 +1,72 @@
+{
+    "status": "ok",
+    "totalResults": 5,
+    "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "NewsSource1"
+        },
+        "author": "John Doe",
+        "title": "Breaking News: Event Happened",
+        "description": "A significant event happened today, making headlines around the country.",
+        "url": "https://newssource1.com/event-happened",
+        "urlToImage": "https://newssource1.com/images/event.jpg",
+        "publishedAt": "2023-11-01T10:00:00Z",
+        "content": "A deep dive into the event that took place today, its causes, implications, and reactions from various sections of society..."
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "NewsSource2"
+        },
+        "author": "Jane Smith",
+        "title": "Update on Recent Developments",
+        "description": "Recent developments suggest a change in the way we perceive things.",
+        "url": "https://newssource2.com/recent-developments",
+        "urlToImage": "https://newssource2.com/images/developments.jpg",
+        "publishedAt": "2023-11-01T09:45:00Z",
+        "content": "A comprehensive analysis of recent developments, their history, and future predictions..."
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "SportsToday"
+        },
+        "author": "Steve Rogers",
+        "title": "Sports Update: Team A vs Team B",
+        "description": "An exhilarating match between Team A and Team B left fans on the edge of their seats.",
+        "url": "https://sportstoday.com/teamA-vs-teamB",
+        "urlToImage": "https://sportstoday.com/images/match.jpg",
+        "publishedAt": "2023-11-01T08:30:00Z",
+        "content": "Detailed commentary on the match, player performances, highlights, and turning points..."
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "TechGuru"
+        },
+        "author": "Natasha Romanoff",
+        "title": "Tech Review: The New Gadget",
+        "description": "We got our hands on the new gadget, and here's our in-depth review.",
+        "url": "https://techguru.com/new-gadget-review",
+        "urlToImage": "https://techguru.com/images/gadget.jpg",
+        "publishedAt": "2023-11-01T07:15:00Z",
+        "content": "A thorough review of the new gadget, its features, pros and cons, and comparison with competitors..."
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "WorldNews"
+        },
+        "author": "Tony Stark",
+        "title": "Global Update: Situation in Country X",
+        "description": "Tensions rise in Country X due to recent events, causing concerns worldwide.",
+        "url": "https://worldnews.com/countryX-situation",
+        "urlToImage": "https://worldnews.com/images/countryX.jpg",
+        "publishedAt": "2023-11-01T06:00:00Z",
+        "content": "A detailed report on the current situation in Country X, reactions from international communities, and potential implications..."
+      }
+    ]
+  }
+  

@@ -1,12 +1,15 @@
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
-const loader = require("sass-loader");
+
+
 
 module.exports = {
     entry: './src/index.js',
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'public/dist'),
     },
+    mode: 'development',
     module: {
         rules: [
             {
@@ -16,11 +19,21 @@ module.exports = {
                     'css-loader',
                     'sass-loader',
                 ]
+            },
+            {
+                test:/\.(js|jsx)$/,
+                exclude: /node_modules/,
+                use: 'babel-loader'
             }
         ]
     },
+    resolve: {
+        extensions: ['.js','.jsx']
+    },
     plugins: [
-
+        new HtmlWebpackPlugin({
+            template: './public/index.html'
+        })
     ],
     devServer: {
         static: {
@@ -28,5 +41,6 @@ module.exports = {
         },
         compress: true,
         port: 9000,
+        hot: true,
       },
 };
