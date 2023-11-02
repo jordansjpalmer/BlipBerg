@@ -1,16 +1,17 @@
 import React from 'react';
 import NavBar from './components/Navbar';
-import SearchBar from './components/SearchBar';
+import SearchBarContainer from './containers/SearchBarContainer';
+import MainContainer from './containers/MainContainer';
 
 import './styling/NewsFeed.scss';
-import MainContainer from './containers/MainContainer';
+
 
 
 const NewsFeed = () => {
     return (
         <div className='news-feed'>
             <NavBar />
-            <SearchBar />
+            <SearchBarContainer />
             <MainContainer />
         </div>
     )
