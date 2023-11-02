@@ -4,9 +4,7 @@ import NewsFeed from './NewsFeed'
 
 function App() {
     return (
-        <Router>
-                <Route exact path="/" component={NewsFeed} />
-        </Router>
+        <NewsFeed />
     );
 }
 

@@ -6,19 +6,38 @@ function Filters({ onFilterChange }) {
         <div className="filters">
             <strong>Filters:</strong>
             <strong id="sectors">Sectors</strong>
-            <input type="checkbox" id="business" name="business" value="business" onChange={onFilterChange} />
-            <label htmlFor="business">Business</label>
-            <input type="checkbox" id="entertainment" name="entertainment" value="entertainment" onChange={onFilterChange} />
-            <label htmlFor="entertainment">Entertainment</label>
-            <input type="checkbox" id="sports" name="sports" value="sports" onChange={onFilterChange} />
-            <label htmlFor="sports">Sports</label>
-            <input type="checkbox" id="technology" name="technology" value="technology" onChange={onFilterChange} />
-            <label htmlFor="technology">Technology</label>
+
+            <label htmlFor="business">
+                <input type="checkbox" id="business" name="business" value="business" onChange={onFilterChange} />
+                Business
+            </label>
+
+            <label htmlFor="entertainment">
+                <input type="checkbox" id="entertainment" name="entertainment" value="entertainment" onChange={onFilterChange} />
+                Entertainment
+            </label>
+
+            <label htmlFor="sports">
+                <input type="checkbox" id="sports" name="sports" value="sports" onChange={onFilterChange} />
+                Sports
+            </label>
+
+            <label htmlFor="technology">
+                <input type="checkbox" id="technology" name="technology" value="technology" onChange={onFilterChange} />
+                Technology
+            </label>
+
             <strong id="publications">Publications</strong>
-            <input type="checkbox" id="bbc-news" name="bbc-news" value="bbc-news" onChange={onFilterChange} />
-            <label htmlFor="bbc-news">BBC News</label>
-            <input type="checkbox" id="abc-news" name="abc-news" value="abc-news" onChange={onFilterChange} />
-            <label htmlFor="abc-news">ABC News</label>
+
+            <label htmlFor="bbc-news">
+                <input type="checkbox" id="bbc-news" name="bbc-news" value="bbc-news" onChange={onFilterChange} />
+                BBC News
+            </label>
+
+            <label htmlFor="abc-news">
+                <input type="checkbox" id="abc-news" name="abc-news" value="abc-news" onChange={onFilterChange} />
+                ABC News
+            </label>
         </div>
     );
 }
