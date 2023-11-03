@@ -1,7 +1,7 @@
 import React from 'react';
-import NavBar from './components/Navbar';
 import SearchBarContainer from './containers/SearchBarContainer';
 import MainContainer from './containers/MainContainer';
+import NavBarContainer from './containers/NavBarContainer';
 
 import './styling/NewsFeed.scss';
 
@@ -10,7 +10,7 @@ import './styling/NewsFeed.scss';
 const NewsFeed = () => {
     return (
         <div className='news-feed'>
-            <NavBar />
+            <NavBarContainer />
             <SearchBarContainer />
             <MainContainer />
         </div>

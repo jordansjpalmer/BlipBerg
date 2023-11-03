@@ -7,6 +7,7 @@ function ArticleCard({ article }) {
             <h2>{article.title}</h2>
             <img src={article.urlToImage} alt={article.title} className="article-image" />
             <p className="article-date">{new Date(article.publishedAt).toLocaleDateString()}</p>
+            <p className="article-author">{article.author}</p>
             <p className="article-description">{article.description}</p>
             <a href={article.url} target="_blank" rel="noopener no referrer" className="read-more-button">Read more</a>
         </div>

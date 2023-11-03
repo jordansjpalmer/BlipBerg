@@ -20,7 +20,7 @@ function SearchBar({ onSearch }) {
     return (
         <div className="search-bar">
             <input type="text" 
-            placeholder="Search for articles on..."
+            placeholder="Search for a specific keyword..."
             value={inputValue} 
             onChange={handleInputChange}
             onKeyDown={handleKeyDown} />
